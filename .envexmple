@@ -1,0 +1,7 @@
+DATABASE="mongodb+srv://kasim:123456kasi@cluster0.wj30r.mongodb.net/tile"
+PORT=4000
+
+
+
+
+JWT_KEY = dfgjkjldfjklfghjk
