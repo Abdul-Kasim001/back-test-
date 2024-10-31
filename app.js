@@ -10,14 +10,12 @@ app.use(express.json())
 
 
 app.use(cors());
-app.use(cors({
-  origin: 'http://localhost:3000/'
-}));
+
 app.use(cors({
   methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH']
 }));
 
-const whitelist = ['http://localhost:3000/']
+
 const corsOptions = {
   origin: (origin, callback) => {
     if (whitelist.indexOf(origin) !== -1) {
